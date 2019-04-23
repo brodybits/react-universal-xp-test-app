@@ -2,12 +2,23 @@ import React from 'react';
 
 import { Text, View } from 'react-primitives'
 
+const headerBackgroundStyle = {backgroundColor: 'blue'}
+
+const headerTextStyle = {color: 'gold', fontSize: 48}
+
 function App() {
   return (
-    <View>
-        <Text style={{color: 'gold', fontSize: 48}}>
-          ☆ Test app ☆
+    <View style={headerBackgroundStyle}>
+      <View>
+        <Text style={headerTextStyle}>
+          ☆☆ ☆☆☆ ☆☆
         </Text>
+      </View>
+      <View>
+        <Text style={headerTextStyle}>
+          ☆ Demo app ☆
+        </Text>
+      </View>
     </View>
   );
 }
