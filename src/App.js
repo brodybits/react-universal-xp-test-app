@@ -1,11 +1,17 @@
 import React from 'react';
+
+import { Text, View } from 'react-primitives'
+
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <View>
       <header className="App-header">
+        <Text style={{color: 'gold', fontSize: 48}}>
+          ☆ Test app ☆
+        </Text>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -19,7 +25,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </View>
   );
 }
 
