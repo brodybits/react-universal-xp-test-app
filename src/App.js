@@ -1,4 +1,5 @@
-import React from 'react';
+/** @jsx h */
+import { createElement as h } from 'react'
 
 import { Text, View } from 'react-primitives'
 
@@ -20,7 +21,7 @@ function App() {
         </Text>
       </View>
     </View>
-  );
+  )
 }
 
-export default App;
+export default App
