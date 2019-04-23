@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-universal-test-app",
-    "slug": "react-universal-test-app",
+    "name": "react-universal-xp-test-app",
+    "slug": "react-universal-xp-test-app",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [

@@ -1,4 +1,4 @@
-# react-universal-test-app
+# react-universal-xp-test-app
 
 This project was _originally_ bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and updated to include support for Expo.
 
