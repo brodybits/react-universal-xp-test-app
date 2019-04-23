@@ -9,6 +9,9 @@
     "react-primitives": "^0.8.0",
     "react-scripts": "3.0.0"
   },
+  "devDependencies": {
+    "babel-preset-expo": "^5.1.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
