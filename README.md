@@ -63,3 +63,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build-web` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Expo scripts
+
+- `yarn start-expo`
+- do `expo eject` to eject from expo (not tested, not supported, not recommended)

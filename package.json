@@ -4,12 +4,13 @@
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "echo 'not supported' && exit 1",
+    "start": "echo 'use start-web or start-expo' && exit 1",
     "start-web": "react-scripts start",
-    "build": "echo 'not supported' && exit 1",
+    "start-expo": "expo start",
+    "build": "echo 'use build-web to build for web' && exit 1",
     "build-web": "react-scripts build",
     "test": "echo 'not supported' && exit 1",
-    "eject": "echo 'not supported' && exit 1",
+    "eject": "echo 'use eject-web for web or expo eject for expo (not recommended)' && exit 1",
     "eject-web": "react-scripts eject"
   },
   "dependencies": {
