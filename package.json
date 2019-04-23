@@ -2,6 +2,15 @@
   "name": "react-universal-test-app",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "echo 'not supported' && exit 1",
+    "start-web": "react-scripts start",
+    "build": "echo 'not supported' && exit 1",
+    "build-web": "react-scripts build",
+    "test": "echo 'not supported' && exit 1",
+    "eject": "echo 'not supported' && exit 1",
+    "eject-web": "react-scripts eject"
+  },
   "dependencies": {
     "react": "16.5.1",
     "react-dom": "^16.8.6",
@@ -11,12 +20,6 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^5.1.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
