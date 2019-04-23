@@ -2,6 +2,7 @@
   "name": "react-universal-test-app",
   "version": "0.1.0",
   "private": true,
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "echo 'not supported' && exit 1",
     "start-web": "react-scripts start",
@@ -12,8 +13,10 @@
     "eject-web": "react-scripts eject"
   },
   "dependencies": {
+    "expo": "^32.0.6",
     "react": "16.5.1",
     "react-dom": "^16.8.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
     "react-native-web": "^0.11.2",
     "react-primitives": "^0.8.0",
     "react-scripts": "3.0.0"
