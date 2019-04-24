@@ -1,7 +1,7 @@
 /** @jsx h */
 import { createElement as h } from 'react'
 
-import { Text, View } from 'react-primitives'
+import { Text, View } from 'react-universal-xp'
 
 const headerBackgroundStyle = {backgroundColor: 'blue'}
 
